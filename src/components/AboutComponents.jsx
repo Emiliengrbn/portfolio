@@ -8,7 +8,7 @@ Au cours de ma première année de BTS NDRC qui ne m'interessait plus, j'ai comm
 C'est à ce moment là que j'ai découvert Openclassrooms et leur formation diplomante "Développeur Web". J'ai donc décidé d'arrêter mon BTS pour comment la formation de développeur web. <br />
 Aujourd'hui, grâce à cette formation j'ai acquis des compétences professionnelles que vous pouvez découvrir dans la partie "compétences", mais aussi des compétences personnelles, comme l'autonomie, la gestion de son temps, ect...
           </p>
-          {/* <ul className="container__word">
+          <ul className="container__word">
             <li className="wordcloud autonomous">Autonome</li>
             <li className="wordcloud team_spirit">Esprit d'équipe</li>
             <li className="wordcloud serious">Sérieux</li>
@@ -19,7 +19,7 @@ Aujourd'hui, grâce à cette formation j'ai acquis des compétences professionne
             <li className="wordcloud respectful">Respectueux</li>
             <li className="wordcloud honest">Honnête</li>
             <li className="wordcloud humor">Humour</li>
-          </ul> */}
+          </ul>
     </div>
   );
 };

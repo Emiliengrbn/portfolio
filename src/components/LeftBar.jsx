@@ -20,7 +20,7 @@ const LeftBar = () => {
             <div className="second__part__leftbar">
                 <ul className="list__leftbar">
                     <li className="content__list__leftbar slideInDown-4">
-                        <Link to={"/projects"} className="leftbar__link">
+                        <Link to={"/"} className="leftbar__link">
                         <div className="button__projets">
                             <div className="box__projets">P</div>
                             <div className="box__projets">R</div>

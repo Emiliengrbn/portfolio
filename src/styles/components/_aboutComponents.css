@@ -3,6 +3,7 @@
     text-align: justify;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
     line-height: 1.5;
 }
 
@@ -145,23 +146,23 @@
     }
 
     .autonomous {
-        top: 45%;
-        left: 8%;
+        top: 50%;
+        left: 7%;
     }
 
     .team_spirit {
-        bottom: 20%;
-        left: 5%;
+        bottom: 27%;
+        left: 1%;
     }
 
     .serious {
         bottom: 8%;
-        left: 20%;
+        left: 10%;
     }
 
     .implied {
-        bottom: 15%;
-        right: 55%;
+        bottom: 18%;
+        left: 5%;
     }
 
     .challenger {
@@ -171,26 +172,37 @@
 
     .communicating {
         bottom: 5%;
-        left: 50%;
+        left: auto;
+        right: 2%;
     }
 
     .curious {
-        bottom: 23%;
+        bottom: 28%;
         right: 8%;
     }
 
     .respectful {
-        bottom: 7%;
-        right: 20%;
+        bottom: 18%;
+        right: 3%;
     }
 
     .honest {
-        bottom: 40%;
+        bottom: 38%;
         right: 5%;
     }
 
     .humor {
-        top: 45%;
-        right: 10%;
+        top: 50%;
+        right: 8%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .wordcloud {
+        visibility: hidden;
+    }
+
+    .text__of__me {
+        width: 80%;
     }
 }

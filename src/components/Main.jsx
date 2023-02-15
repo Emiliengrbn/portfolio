@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <div className="main__content">
       <div className="navbar">
-        <NavLink to={"/projects"} className={(nav) => (nav.isActive ? "nav-active" : "link__navbar")}>
+        <NavLink to={"/"} className={(nav) => (nav.isActive ? "nav-active" : "link__navbar")}>
           <p className="navbar__content">PROJETS</p>
         </NavLink>
         <NavLink to={"/skills"} className={(nav) => (nav.isActive ? "nav-active " : "link__navbar")}>

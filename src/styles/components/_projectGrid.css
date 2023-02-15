@@ -10,6 +10,8 @@
     display: flex;
     text-decoration: none;
     color: black;
+    align-items: center;
+    justify-content: center;
 }
 
 .card__project__grid:hover .project__img {

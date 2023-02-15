@@ -29,8 +29,8 @@ const Header = () => {
             </Link>
           </div>
             <p className="presentation">
-              Développeur Front-end diplomé du parcour "Développeur web" d'openclassrooms <br />
-              Passionné de développement web et en quête de la meilleur expérience client possible
+              • Développeur Front-end diplômé du parcours "Développeur web" d'Openclassrooms <br />
+              • Passionné de développement web et en quête de la meilleure expérience client possible
             </p>
         </div>
     </div>
