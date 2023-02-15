@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+.logo__leftbar {
+    font-family: 'Yeseva One', cursive;
+    margin-bottom: 20px;
+}
+
+.leftbar {
+    position: fixed;
+    border-right: 1px lightgrey solid;
+    height: 100%;
+    padding: 32px 37.5px 0 37.5px;
+}
+
+.first__part__leftbar {
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.content__list__leftbar a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 50px;
+}
+
+.content__list__leftbar {
+    padding-bottom: 50px;
+    width: min-content;
+}
+
+/* COMPETENCES  */
+
+.button__competences {
+    display: flex;
+}
+
+.box__competences {
+    width: 15px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #111;
+    transition: all .8s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.box__competences:before {
+    content: "C";
+    position: absolute;
+    top: 0;
+    color: #fff;
+    background: #0f0f0f;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+    transition: transform .4s;
+}
+
+.box__competences:nth-child(2)::before {
+    transform: translateY(-100%);
+    content: 'O';
+}
+
+.box__competences:nth-child(3)::before {
+    content: 'M';
+}
+
+.box__competences:nth-child(4)::before {
+    transform: translateY(-100%);
+    content: 'P';
+}
+
+.box__competences:nth-child(5)::before {
+    content: 'E';
+}
+
+.box__competences:nth-child(6)::before {
+    transform: translateY(-100%);
+    content: 'T';
+}
+
+.box__competences:nth-child(7)::before {
+    content: 'E';
+}
+
+.box__competences:nth-child(8)::before {
+    transform: translateY(-100%);
+    content: 'N';
+}
+
+.box__competences:nth-child(9)::before {
+    content: 'C';
+}
+
+.box__competences:nth-child(10)::before {
+    transform: translateY(-100%);
+    content: 'E';
+}
+
+.box__competences:nth-child(11)::before {
+    content: 'S';
+}
+
+.button__competences:hover .box__competences:before {
+    transform: translateY(0);
+}
+
+/*  PROJETS  */
+
+.button__projets {
+    display: flex;
+}
+
+.box__projets {
+    width: 15px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #111;
+    transition: all .8s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.box__projets:before {
+    content: "P";
+    position: absolute;
+    top: 0;
+    color: #fff;
+    background: #0f0f0f;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+    transition: transform .4s;
+}
+
+.box__projets:nth-child(2)::before {
+    transform: translateY(-100%);
+    content: 'R';
+}
+
+.box__projets:nth-child(3)::before {
+    content: 'O';
+}
+
+.box__projets:nth-child(4)::before {
+    transform: translateY(-100%);
+    content: 'J';
+}
+
+.box__projets:nth-child(5)::before {
+    content: 'E';
+}
+
+.box__projets:nth-child(6)::before {
+    transform: translateY(-100%);
+    content: 'T';
+}
+
+.box__projets:nth-child(7)::before {
+    content: 'S';
+}
+
+.button__projets:hover .box__projets:before {
+    transform: translateY(0);
+}
+
+/*  ABOUT */
+
+.button__about {
+    display: flex;
+}
+
+.box__about {
+    width: 15px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #111;
+    transition: all .8s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.box__about:before {
+    content: "À";
+    position: absolute;
+    top: 0;
+    color: #fff;
+    background: #0f0f0f;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+    transition: transform .4s;
+}
+
+.box__about:nth-child(2)::before {
+    transform: translateY(-100%);
+    content: 'P';
+}
+
+.box__about:nth-child(3)::before {
+    content: 'R';
+}
+
+.box__about:nth-child(4)::before {
+    transform: translateY(-100%);
+    content: 'O';
+}
+
+.box__about:nth-child(5)::before {
+    content: 'P';
+}
+
+.box__about:nth-child(6)::before {
+    transform: translateY(-100%);
+    content: 'O';
+}
+
+.box__about:nth-child(7)::before {
+    content: 'S';
+}
+
+.button__about:hover .box__about:before {
+    transform: translateY(0);
+}
+
+/*  CONTACT  */
+
+.button__contact {
+    display: flex;
+}
+
+.box__contact {
+    width: 15px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #111;
+    transition: all .8s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.box__contact:before {
+    content: "C";
+    position: absolute;
+    top: 0;
+    color: #fff;
+    background: #0f0f0f;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+    transition: transform .4s;
+}
+
+.box__contact:nth-child(2)::before {
+    transform: translateY(-100%);
+    content: 'O';
+}
+
+.box__contact:nth-child(3)::before {
+    content: 'N';
+}
+
+.box__contact:nth-child(4)::before {
+    transform: translateY(-100%);
+    content: 'T';
+}
+
+.box__contact:nth-child(5)::before {
+    content: 'A';
+}
+
+.box__contact:nth-child(6)::before {
+    transform: translateY(-100%);
+    content: 'C';
+}
+
+.box__contact:nth-child(7)::before {
+    content: 'T';
+}
+
+.button__contact:hover .box__contact:before {
+    transform: translateY(0);
+}

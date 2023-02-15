@@ -1,0 +1,10 @@
+@import "./_settings.css";
+@import "./components/_header.css";
+@import "./components/_leftBar.css";
+@import "./components/_main.css";
+@import "./components/_socialNetwork.css";
+@import "./components/_contactForm.css";
+@import "./components/_projectGrid.css";
+@import "./components/_skillsGrid.css";
+@import "./components/_burgerMenu.css";
+@import "./components/_aboutComponents.css";

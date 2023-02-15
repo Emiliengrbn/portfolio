@@ -1,0 +1,176 @@
+.skills__grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+    width: 100%;
+}
+
+.skill__grid {
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+.html__skill {
+    color: #DD4B25;
+}
+
+.html__skill:hover {
+    color: white;
+    background-color: #DD4B25;
+    transition: 0.5s;
+}
+
+.html__skill:not(hover) {
+    transition: 0.5s;
+}
+
+.css__skill {
+    color: #0C6FB2;
+}
+
+.css__skill:hover {
+    color: white;
+    background-color: #0C6FB2;
+    transition: 0.5s;
+}
+
+.css__skill:not(hover) {
+    transition: 0.5s;
+}
+
+.javascript__skill {
+    color: #E09E27;
+}
+
+.javascript__skill:hover {
+    color: white;
+    background-color: #E09E27;
+    transition: 0.5s;
+}
+
+.javascript__skill:not(hover) {
+    transition: 0.5s;
+}
+
+.react__skill {
+    color: #00D5F7;
+}
+
+.react__skill:hover {
+    color: white;
+    background-color: #00D5F7;
+    transition: 0.5s;
+}
+
+.react__skill:not(hover) {
+    transition: 0.5s;
+}
+
+.git__skill {
+    color: #E84D31;
+}
+
+.git__skill:hover {
+    color: white;
+    background-color: #E84D31;
+    transition: 0.5s;
+}
+
+.git__skill:not(hover) {
+    transition: 0.5s;
+}
+
+.json__skill {
+    color: #F3BA2C;
+}
+
+.json__skill:hover {
+    color: white;
+    background-color: #F3BA2C;
+    transition: 0.5s;
+}
+
+.json__skill:not(hover) {
+    transition: 0.5s;
+}
+
+.nodejs__skill {
+    color: #72A960;
+}
+
+.nodejs__skill:hover {
+    color: white;
+    background-color: #72A960;
+    transition: 0.5s;
+}
+
+.nodejs__skill:not(hover) {
+    transition: 0.5s;
+}
+
+.npm__skill {
+    color: #C53635;
+}
+
+.npm__skill:hover {
+    color: white;
+    background-color: #C53635;
+    transition: 0.5s;
+}
+
+.npm__skill:not(hover) {
+    transition: 0.5s;
+}
+
+.rest__skill {
+    color: #007DC0;
+}
+
+.rest__skill:hover {
+    color: white;
+    background-color: #007DC0;
+    transition: 0.5s;
+}
+
+.rest__skill:not(hover) {
+    transition: 0.5s;
+}
+
+.mongo__skill {
+    color: #4EAC3E;
+}
+
+.mongo__skill:hover {
+    color: white;
+    background-color: #4EAC3E;
+    transition: 0.5s;
+}
+
+.mongo__skill:not(hover) {
+    transition: 0.5s;
+}
+
+.github__skill {
+    color: #000000;
+}
+
+.github__skill:hover {
+    color: white;
+    background-color: #000000;
+    transition: 0.5s;
+}
+
+.github__skill:not(hover) {
+    transition: 0.5s;
+}

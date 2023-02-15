@@ -1,0 +1,196 @@
+.text__of__me {
+    display: flex;
+    text-align: justify;
+    margin: auto;
+    margin-top: 50px;
+    line-height: 1.5;
+}
+
+.wordcloud {
+    position: absolute;
+    opacity: 0.2;
+    cursor: default;
+    animation: fly-2 0.6s ease-in-out infinite alternate;
+}
+
+.autonomous {
+    top: 45%;
+    left: 20%;
+}
+
+.team_spirit {
+    bottom: 23%;
+    left: 35%;
+    animation-delay: 0.2s;
+}
+
+.serious {
+    bottom: 8%;
+    left: 30%;
+    animation-delay: 0.3s;
+}
+
+.implied {
+    bottom: 20%;
+    right: 30%;
+    animation-delay: 0.4s;
+}
+
+.challenger {
+    top: 65%;
+    left: 18%;
+    animation-delay: 0.1s;
+}
+
+.communicating {
+    bottom: 10%;
+    left: 50%;
+    animation-delay: 0.5s;
+}
+
+.curious {
+    bottom: 23%;
+    right: 13%;
+    animation-delay: 0.6s;
+}
+
+.respectful {
+    bottom: 7%;
+    right: 20%;
+    animation-delay: 0.7s;
+}
+
+.honest {
+    bottom: 40%;
+    right: 5%;
+    animation-delay: 0.8s;
+}
+
+.humor {
+    top: 45%;
+    right: 3%;
+    animation-delay: 0.9s;
+}
+
+@keyframes fly-2 {
+    from {
+        transform: translateY(0.1em);
+    }
+
+    to {
+        transform: translateY(-0.1em);
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .text__of__me {
+        width: 60%;
+    }
+
+    .autonomous {
+        top: 45%;
+        left: 8%;
+    }
+
+    .team_spirit {
+        bottom: 20%;
+        left: 5%;
+    }
+
+    .serious {
+        bottom: 8%;
+        left: 20%;
+    }
+
+    .implied {
+        bottom: 15%;
+        right: 55%;
+    }
+
+    .challenger {
+        top: 60%;
+        left: 3%;
+    }
+
+    .communicating {
+        bottom: 5%;
+        left: 50%;
+    }
+
+    .curious {
+        bottom: 23%;
+        right: 8%;
+    }
+
+    .respectful {
+        bottom: 7%;
+        right: 20%;
+    }
+
+    .honest {
+        bottom: 40%;
+        right: 5%;
+    }
+
+    .humor {
+        top: 45%;
+        right: 10%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .text__of__me {
+        margin-top: -10px;
+    }
+
+    .autonomous {
+        top: 45%;
+        left: 8%;
+    }
+
+    .team_spirit {
+        bottom: 20%;
+        left: 5%;
+    }
+
+    .serious {
+        bottom: 8%;
+        left: 20%;
+    }
+
+    .implied {
+        bottom: 15%;
+        right: 55%;
+    }
+
+    .challenger {
+        top: 60%;
+        left: 3%;
+    }
+
+    .communicating {
+        bottom: 5%;
+        left: 50%;
+    }
+
+    .curious {
+        bottom: 23%;
+        right: 8%;
+    }
+
+    .respectful {
+        bottom: 7%;
+        right: 20%;
+    }
+
+    .honest {
+        bottom: 40%;
+        right: 5%;
+    }
+
+    .humor {
+        top: 45%;
+        right: 10%;
+    }
+}

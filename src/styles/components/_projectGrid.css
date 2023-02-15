@@ -1,0 +1,95 @@
+.projects__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 75px;
+}
+
+.card__project__grid {
+    margin-top: 65px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.card__project__grid:hover .project__img {
+    filter: blur(7px);
+    transform: scale(0.95);
+    transition: 0.7s;
+}
+
+.card__project__grid:not(hover) .project__img {
+    transition: 0.7s;
+}
+
+.card__project__grid:hover .content__project__grid {
+    transform: scale(1);
+    transition: 0.7s;
+}
+
+.card__project__grid:not(hover) .content__project__grid {
+    transition: 0.7s;
+}
+
+.project__img {
+    border-radius: 20px;
+    width: 290px;
+    height: 290px;
+    object-fit: scale-down;
+    margin: 15px;
+}
+
+.project__img__ohmyfood {
+    box-shadow: 0 0 20px #101010;
+    padding: 30px;
+}
+
+.card__project__grid:hover .project__img__ohmyfood {
+    background: #101010;
+}
+
+.project__img__kanap {
+    box-shadow: 0 0 20px #0A3B4D;
+}
+
+.card__project__grid:hover .project__img__kanap {
+    background: #0A3B4D;
+}
+
+.project__img__piiquante {
+    box-shadow: 0 0 20px #C40000;
+}
+
+.card__project__grid:hover .project__img__piiquante {
+    background: #C40000;
+}
+
+.project__img__kasa {
+    box-shadow: 0 0 20px #FF6060;
+}
+
+.card__project__grid:hover .project__img__kasa {
+    background: #FF6060;
+}
+
+.content__project__grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 290px;
+    height: 290px;
+    transform: scale(0);
+    position: absolute;
+    font-size: 16px;
+    color: white;
+}
+
+.title__content__project__grid {
+    margin: 10px 0 15px;
+    font-weight: bold;
+}
+
+.text__content__project__grid {
+    margin: 0 10px;
+}

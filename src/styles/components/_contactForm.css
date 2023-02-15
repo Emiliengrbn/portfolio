@@ -1,0 +1,85 @@
+.contact__form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+input,
+textarea {
+    width: 500px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+    border: 1.5px solid grey;
+    box-shadow: 0 0 7px grey;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+    outline: none;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: lightgrey;
+    box-shadow: 0 0 10px grey;
+    color: black;
+}
+
+button[type="submit"]:active {
+    transform: scale(0.95);
+}
+
+.error__message__form {
+    color: red;
+    font-size: 15px;
+}
+
+.message__contact__form {
+    width: 400px;
+    text-align: center;
+    background: white;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.show {
+    opacity: 1;
+}
+
+.hide {
+    opacity: 0;
+}
+
+@media all and (max-width: 500px) {
+
+    input,
+    textarea {
+        width: 85%;
+    }
+}
