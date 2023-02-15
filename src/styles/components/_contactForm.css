@@ -76,7 +76,7 @@ button[type="submit"]:active {
     opacity: 0;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 550px) {
 
     input,
     textarea {
