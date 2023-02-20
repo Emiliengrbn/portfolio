@@ -5,7 +5,7 @@ const AboutComponents = () => {
     <div>
           <p className="text__of__me">Moi, c'est Emilien, j'ai 19 ans et je me suis intéressé au développement web il y a environ 1 ans. <br />
 Au cours de ma première année de BTS NDRC qui ne m'interessait plus, j'ai commencé à me renseigner sur le métier de développeur web et les différentes alternatives aux cours traditionnel (bts, but, ect...). <br />
-C'est à ce moment là que j'ai découvert Openclassrooms et leur formation diplomante "Développeur Web". J'ai donc décidé d'arrêter mon BTS pour comment la formation de développeur web. <br />
+C'est à ce moment là que j'ai découvert Openclassrooms et leur formation diplomante "Développeur Web". J'ai donc décidé d'arrêter mon BTS pour commencer la formation de développeur web. <br />
 Aujourd'hui, grâce à cette formation j'ai acquis des compétences professionnelles que vous pouvez découvrir dans la partie "compétences", mais aussi des compétences personnelles, comme l'autonomie, la gestion de son temps, ect...
           </p>
           <ul className="container__word">

@@ -81,7 +81,7 @@ const LeftBar = () => {
                 <SocialNetwork />
             </div>
         </div>
-        <button className="leftbar__burger" onClick={handleShowLinks}>
+        <button type="button" className="leftbar__burger" onClick={handleShowLinks}>
             <span className="burger-bar" />
         </button>
     </div>
